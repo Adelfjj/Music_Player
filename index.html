@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Player</title>
+</head>
+<body>
+    <main>
+        <header>
+            <h2>Tocando do Artista</h2>
+            <h1>Blood Stain Child</h1>
+        </header>
+        <div class="album">
+            <img src="" alt="">
+        </div>
+        <div class="player">
+            <div class="top">
+                <div class="artist-info">
+                    <p class="nome-musica">Stargazer</p>
+                    <p class="nome-banda">Blood Stain Child</p>
+                </div>
+                <i class="fa fa-heart-o fav"></i>
+            </div>
+            <div class="area-progresso">
+                <div class="barra-progresso">
+                    <audio id="musica-principal" src=""></audio>
+                </div>
+                <div class="tempo">
+                    <span class="tempo-atual">0:00</span>
+                    <span class="tempo-maximo">0:00</span>
+                </div>
+            </div>
+            <div class="controles">
+                <i class="fa fa-random"></i>
+                <i class="fa fa-step-backward"></i>
+                <i id="play-pause" class="fa fa-play-circle"></i>
+                <i class="fa fa-step-forward"></i>
+                <i class="fa fa-angle-down"></i>
+            </div>
+        </div>
+        <div class="playlist">
+            <div class="topo">
+                <span>PlayList</span>
+                <i class="fa fa-angle-up"></i>
+            </div>
+            <ul>        
+            </ul>
+        </div>
+        
+    </main>
+    <section class="license">
+        <div class="top_info" id="btnInfo">
+            <h2>Legal information</h2>
+            <label for="btnInfo"><i class="fa fa-times" aria-hidden="true"></i></label>
+        </div>
+        <div class="music_attribution">
+            <div>
+                <p>Track: Fly Away</p> 
+                <span>Music by https://www.fiftysounds.com</span>
+            </div>
+            <div>
+                <p>Track: 90's Game</p> 
+                <span>Music by https://www.fiftysounds.com</span>
+            </div>
+            <div>
+                <p>Track: Spirit of Fire</p> 
+                <span>Music by https://www.fiftysounds.com</span>
+            </div>
+        </div>
+    </section>
+    <script src="scripts/playlist.js"></script>
+    <script src="scripts/script.js"></script>
+</body>
+</html>
